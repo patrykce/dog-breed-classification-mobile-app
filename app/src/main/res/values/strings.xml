@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DogClassifier</string>
+    <string name="take_picture">take picture</string>
+    <string name="select_picture">select picture</string>
+</resources>

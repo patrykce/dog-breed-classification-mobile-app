@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:summary="Dogs displaying information"
+        android:title="Setup dogs recognition details">
+        <CheckBoxPreference
+            android:key="percentage"
+            android:summary="On/Off"
+            android:defaultValue="false"
+            android:title="Show percentage chance" />
+
+        <ListPreference
+            android:entries="@array/listOptions"
+            android:entryValues="@array/listValues"
+            android:defaultValue="1"
+            android:key="listpref"
+            android:summary="Numbers of best results"
+            android:title="Results" />
+    </PreferenceCategory>
+</PreferenceScreen>
